@@ -1,12 +1,14 @@
 # MachineLearning - Neural Network Classfiers
 
-In this assignment, you will experiment with the Neural Network classifier.
+In this assignment, we will experiment with the Neural Network classifier.
 
 1 Dataset
 
 This experiment will use the following data set from the UC Irvine Machine Learning Repository:
 Optical Recognition of Handwritten Digits Data Set (use optdigits.names, optdigits.tra as training data, and optdigits.tes as test data)
 (https://archive.ics.uci.edu/ml/datasets/Optical+Recognition+of+Handwritten+Digits).
+
+The files have been converted to a format so that it can be used by the scripts.
 
 2 Tasks
 
@@ -21,11 +23,10 @@ functions, different values of hyper-parameters are used, including number of hi
 rates, momentum rates, input scaling, and so on. We compare their classification accuracy and convergence speed (time till training stops).
 A report of the experimental results, the best hyper-parameter values and a report for the best model learned, the corresponding
 hyper-parameters and the performance including overall classification accuracy, class accuracy, and confusion matrix for both training and
-testing data is recorded and the results ares discussed here.
+testing data is recorded and the results are discussed here.
 
 (b) tanh vs. ReLU hidden units. Use the cross-entropy error function. For each of the two types of hidden units, the above experiments are
-repeated, that is, experiment is conducted with different values of hyper-parameters and the results are reported. The results are discussed
-here.
+repeated, that is, experiment is conducted with different values of hyper-parameters and the results are reported. The results are discussed here.
 
 2. Experiment with convolutional networks (CNNs). 
 
