@@ -46,4 +46,4 @@ testing data (test label.csv, test data.csv). Specifically, your program will ac
 You will implement the multinomial model ("a bag of words" model) and in the learning phase estimate the required probability terms
 using the training data.
 
-![alt text](screenshots/image.png)
+![alt text](screenshot/image.png)
