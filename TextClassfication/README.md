@@ -35,16 +35,16 @@ The original data set is available at http://qwone.com/~jason/20Newsgroups/. In 
 set. Instead, a processed version of the data set is provided (see 20newsgroups.zip).
 
 This processed version represents 18824 documents which have been divided to two subsets: training (11269 documents) and testing (7505
-documents). You will find six files: map.csv, train label.csv, train data.csv, test label.csv, test data.csv, vocabulary.txt. The
-vocabulary.txt contains all distinct words and other tokens in the 18824 documents. traindata.csv and testdata.csv are formatted
+documents). You will find six files: map.csv, train_label.csv, train_data.csv, test_label.csv, test_data.csv, vocabulary.txt. The
+vocabulary.txt contains all distinct words and other tokens in the 18824 documents. train_data.csv and test_data.csv are formatted
 "docIdx, wordIdx, count", where docIdx is the document id, wordIdx represents the word id (in correspondence to vocabulary.txt) and
-count is the frequency of the word in the document. trainlabel.csv and testlabel.csv are simply a list of label ids indicating which
+count is the frequency of the word in the document. train_label.csv and test_label.csv are simply a list of label ids indicating which
 newsgroup each document belongs to. The map.csv maps from label ids to label names.
 
 2 What You Will Do
 
-Learn your Naive Bayes classifier from the training data (trainlabel.csv, traindata.csv), then evaluate its performance on the
-testingdata (testlabel.csv, testdata.csv). Specifically, your program will accomplish the following two tasks. 
+Learn your Naive Bayes classifier from the training data (train_label.csv, train_data.csv), then evaluate its performance on the
+testing_data (test_label.csv, test_data.csv). Specifically, your program will accomplish the following two tasks. 
 
 2.1 Learn Naive Bayes Model
 
@@ -55,7 +55,7 @@ using the training data.
 
 2.2 Evaluate the Performance of the Classifier
 
-![alt text](Screentshots/image1.png)
+![alt text](Screenshots.image1.png)
 
 2.2.1 Performance on training data
 
