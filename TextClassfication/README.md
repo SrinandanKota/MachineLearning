@@ -13,24 +13,43 @@ newsgroups. It was originally collected by Ken Lang, probably for his Newsweeder
 explicitly mention this collection. The 20 newsgroups collection has become a popular data set for experiments in text applications of
 machine learning techniques, such as text classification and text clustering. The data is organized into 20 different newsgroups, each
 corresponding to a different topic. Here is a list of the 20 newsgroups:
+
 alt.atheism
+
 comp.graphics
+
 comp.os.ms-windows.misc
+
 comp.sys.ibm.pc.hardware
+
 comp.sys.mac.hardware
+
 comp.windows.x
+
 misc.forsale
+
 rec.autos rec.motorcycles
+
 rec.sport.baseball rec.sport.hockey
+
 sci.crypt
+
 sci.electronics
+
 sci.med
+
 sci.space
+
 soc.religion.christian
+
 talk.politics.guns
+
 talk.politics.mideast
+
 talk.politics.misc
+
 talk.religion.misc
+
 
 The original data set is available at http://qwone.com/~jason/20Newsgroups/. In this lab, you won't need to process the original data
 set. Instead, a processed version of the data set is provided (see 20newsgroups.zip).
@@ -45,7 +64,7 @@ newsgroup each document belongs to. The map.csv maps from label ids to label nam
 2 What You Will Do
 
 Learn your Naive Bayes classifier from the training data (train_label.csv, train_data.csv), then evaluate its performance on the
-testing_data (test_label.csv, test_data.csv). Specifically, your program will accomplish the following two tasks. 
+testing data (test_label.csv, test_data.csv). Specifically, your program will accomplish the following two tasks. 
 
 2.1 Learn Naive Bayes Model
 
@@ -70,7 +89,7 @@ Next repeat the experiments (on testing data) using your Maximum Likelihood esti
 
 2.3 Summary
 
-In summary your program will output the following relevant chracteristics:
+In summary your program will output the following relevant characteristics:
 
 1. Class priors
 2. Performance on training data (using Bayesian estimators): overall accuracy, class accuracy, confusion matrix.
