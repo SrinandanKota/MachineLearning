@@ -7,6 +7,7 @@ Points: 1) This is a lab assignment which requires code to implement the Naive B
 Naive Bayes classifiers have been successfully applied to classifying text documents. This is a lab assignment and you will implement the Naive Bayes algorithm to solve the "20 Newsgroups" classification problem.
 
 1 Data Set
+
 The 20 Newsgroups data set is a collection of approximately 20,000 newsgroup documents, partitioned (nearly) evenly across 20 different
 newsgroups. It was originally collected by Ken Lang, probably for his Newsweeder: Learning to filter netnews[1] paper, though he did not
 explicitly mention this collection. The 20 newsgroups collection has become a popular data set for experiments in text applications of
@@ -55,7 +56,7 @@ using the training data.
 
 2.2 Evaluate the Performance of the Classifier
 
-![alt text](Screenshots.image1.png)
+![alt text](Screenshots/image1.png)
 
 2.2.1 Performance on training data
 
