@@ -1,5 +1,4 @@
-Naive Bayes classifiers have been successfully applied to classifying text documents. In this lab assignment, you will implement the 
-Naive Bayes algorithm to solve the \20 Newsgroups" classification problem.
+Naive Bayes classifiers have been successfully applied to classifying text documents. This is a lab assignment and you will implement the Naive Bayes algorithm to solve the "20 Newsgroups" classification problem.
 
 1 Data Set
 The 20 Newsgroups data set is a collection of approximately 20,000 newsgroup documents, partitioned (nearly) evenly across 20 different
@@ -46,4 +45,11 @@ testing data (test label.csv, test data.csv). Specifically, your program will ac
 You will implement the multinomial model ("a bag of words" model) and in the learning phase estimate the required probability terms
 using the training data.
 
-![alt text](screenshot/image.png)
+![alt text](Screenshots/image.png)
+
+2.2 Evaluate the Performance of the Classifier
+
+![alt text](Screentshots/)
+
+
+
