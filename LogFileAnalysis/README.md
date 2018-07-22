@@ -43,7 +43,7 @@ For the purpose of this paper we have used a sample log file with recorded log m
 others that were used in [1] for detecting system problems. A sample log file having the messages of the Hadoop System is shown below in
 the Figure 1.
 
-Figure_1
+![alt text](Screenshots/HadoopLog.png "Figure 1")
 
 Each event has a few attributes in the message associated with it and to treat this as a sequence prediction problem we extract a part
 of the message which uniquely identifies it and treat it as a sequence of events. We can ignore the timesteps associated with each
@@ -54,7 +54,7 @@ representation of this one-to-one sequence is shown in Fig 2 for the first few e
 that the first few events in the file appear in the order “978”, ”963”, “963”,”228”,”353” and “509”. The message can then be identified
 from the original file by using the predicted sequence of the LSTM model.
 
-Figure_2
+![alt text](Screenshots/seq_input.png "Figure 2")
 
 PROOF OF CONCEPT MODEL
 
@@ -83,7 +83,7 @@ Conclusion
 A simple model of LSTM recurrent neural network is implemented to predict the sequence of events in a sample log file of a Hadoop System
 in order to help the engineers to prepare for an event if it is an error. LSTM RNNs are able to store information for a good amount of
 time, are resistant to noise and their system parameters are trainable, making it a very popular choice for classification tasks as
-discussed in []. We have tried to implement a model that can predict the next event in a log file based on the previous events which
+discussed in [3]. We have tried to implement a model that can predict the next event in a log file based on the previous events which
 are not possible to obtain with great accuracy using some of the machine learning techniques. This is a very recent development in the
 field of log analytics and this paper implements a simple model to demonstrate its working and it is  found that it works reasonably
 well for small amounts of data and without much tuning of the parameters of the LSTM model
@@ -93,9 +93,11 @@ well for small amounts of data and without much tuning of the parameters of the 
 
 [1] Wei Xu, Ling Huang, Armando Fox, David Patterson, and Michael I. Jordan,” Detecting Large-Scale System Problems by Mining Console
 Logs”.
+
 [2] Understanding Stateful LSTM Recurrent Neural Networks in Python with Keras (Online available at:
 https://machinelearningmastery.com/understanding-stateful-lstm-recurrent-neural-networks-python-keras/ )
-[]
+
+[3] A Gentle Introduction to Long Short-Term Memory Networks by the Experts (Online available at: https://machinelearningmastery.com/gentle-introduction-long-short-term-memory-networks-experts/ )
 
 
 
