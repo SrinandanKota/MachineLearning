@@ -80,7 +80,7 @@ time, are resistant to noise and their system parameters are trainable, making i
 discussed in [4]. We have tried to implement a model that can predict the next event in a log file based on the previous events which
 are not possible to obtain with great accuracy using some of the machine learning techniques. This is a very recent development in the
 field of log analytics and here we implement a simple model to demonstrate its working and it is  found that it works reasonably
-well for small amounts of data and without much tuning of the parameters of the LSTM model
+well for small amounts of data and without much tuning of the parameters of the LSTM model.
 
 
 [1] Log Analytics, Mining & Anomaly Detection with Machine Learning & Deep Learning (Online available at : https://www.xenonstack.com/blog/data-science/understanding-log-analytics-log-mining-anomaly-detection )
