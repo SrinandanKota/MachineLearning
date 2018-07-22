@@ -56,7 +56,7 @@ from the original file by using the predicted sequence of the LSTM model.
 
 ![alt text](Screenshots/seq_input.png "Figure 2")
 
-PROOF OF CONCEPT MODEL
+Proof of concept
 
 A.	Initial Processing of input data
 After pre-processing the data, we will have a sequence of events that is made available from the log file. This will be our dataset to
@@ -72,7 +72,7 @@ in the processed file represents a different class. The output can be converted 
 built-in functions. These steps will allow us to fit different LSTM models.
 
 
-B.	LSTM ONE-SEQUENCE TO ONE-SEQEUNCE MAP
+B.	LSTM one-sequence to one-sequence map
 
 The code creates input and output pairs, on which the networks are trained and this is done by defining an input sequence length of
 one and then reading input event sequences from the input file after pre-processing. The network will learn the mapping of events, but
@@ -87,8 +87,6 @@ discussed in [3]. We have tried to implement a model that can predict the next e
 are not possible to obtain with great accuracy using some of the machine learning techniques. This is a very recent development in the
 field of log analytics and this paper implements a simple model to demonstrate its working and it is  found that it works reasonably
 well for small amounts of data and without much tuning of the parameters of the LSTM model
-
-
 
 
 [1] Wei Xu, Ling Huang, Armando Fox, David Patterson, and Michael I. Jordan,” Detecting Large-Scale System Problems by Mining Console
