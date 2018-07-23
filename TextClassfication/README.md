@@ -28,9 +28,13 @@ comp.windows.x
 
 misc.forsale
 
-rec.autos rec.motorcycles
+rec.autos
 
-rec.sport.baseball rec.sport.hockey
+rec.motorcycles
+
+rec.sport.baseball
+
+rec.sport.hockey
 
 sci.crypt
 
